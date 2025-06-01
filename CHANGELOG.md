@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - add `minBy` to namespace
+-   [`5501d03`](https://github.com/stdlib-js/stdlib/commit/5501d03eff68bf9916ae5daff0ce8d8aa1b561b8) - add `stats/array/min-by` [(#7155)](https://github.com/stdlib-js/stdlib/pull/7155)
 -   [`e9e996f`](https://github.com/stdlib-js/stdlib/commit/e9e996f3b7b37ebea1332bd7e55af23856b61e6b) - add aliases to namespace
 -   [`3a14e6d`](https://github.com/stdlib-js/stdlib/commit/3a14e6d7972bfa6bae72f1f7f96968e369e9b90c) - add `stats/array` namespace
 -   [`8908678`](https://github.com/stdlib-js/stdlib/commit/8908678437284667ba0c50725224998ed9c58f9c) - add `stats/array/max-by` [(#7130)](https://github.com/stdlib-js/stdlib/pull/7130)
@@ -38,6 +40,8 @@
 
 <details>
 
+-   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - **feat:** add `minBy` to namespace _(by Athan Reines)_
+-   [`5501d03`](https://github.com/stdlib-js/stdlib/commit/5501d03eff68bf9916ae5daff0ce8d8aa1b561b8) - **feat:** add `stats/array/min-by` [(#7155)](https://github.com/stdlib-js/stdlib/pull/7155) _(by Gururaj Gurram, stdlib-bot)_
 -   [`e9e996f`](https://github.com/stdlib-js/stdlib/commit/e9e996f3b7b37ebea1332bd7e55af23856b61e6b) - **feat:** add aliases to namespace _(by Athan Reines)_
 -   [`3a14e6d`](https://github.com/stdlib-js/stdlib/commit/3a14e6d7972bfa6bae72f1f7f96968e369e9b90c) - **feat:** add `stats/array` namespace _(by Athan Reines)_
 -   [`8908678`](https://github.com/stdlib-js/stdlib/commit/8908678437284667ba0c50725224998ed9c58f9c) - **feat:** add `stats/array/max-by` [(#7130)](https://github.com/stdlib-js/stdlib/pull/7130) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
