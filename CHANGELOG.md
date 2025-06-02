@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-01)
+## Unreleased (2025-06-02)
 
 <section class="features">
 
@@ -40,6 +40,7 @@
 
 <details>
 
+-   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - **feat:** add `minBy` to namespace _(by Athan Reines)_
 -   [`5501d03`](https://github.com/stdlib-js/stdlib/commit/5501d03eff68bf9916ae5daff0ce8d8aa1b561b8) - **feat:** add `stats/array/min-by` [(#7155)](https://github.com/stdlib-js/stdlib/pull/7155) _(by Gururaj Gurram, stdlib-bot)_
 -   [`e9e996f`](https://github.com/stdlib-js/stdlib/commit/e9e996f3b7b37ebea1332bd7e55af23856b61e6b) - **feat:** add aliases to namespace _(by Athan Reines)_
