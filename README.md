@@ -45,38 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-array
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/stats-array/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/stats-array' );
 ```
 
 #### ns
@@ -91,6 +85,27 @@ var o = ns;
 The namespace exports the following:
 
 <!-- <toc pattern="*"> -->
+
+<div class="namespace-toc">
+
+-   <span class="signature">[`maxBy( x, clbk[, thisArg] )`][@stdlib/stats/array/max-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of an array via a callback function.</span>
+-   <span class="signature">[`max( x )`][@stdlib/stats/array/max]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of an array.</span>
+-   <span class="signature">[`maxabs( x )`][@stdlib/stats/array/maxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of an array.</span>
+-   <span class="signature">[`maxsorted( x )`][@stdlib/stats/array/maxsorted]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a sorted array.</span>
+-   <span class="signature">[`mean( x )`][@stdlib/stats/array/mean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of an array.</span>
+-   <span class="signature">[`mediansorted( x )`][@stdlib/stats/array/mediansorted]</span><span class="delimiter">: </span><span class="description">calculate the median value of a sorted array.</span>
+-   <span class="signature">[`minBy( x, clbk[, thisArg] )`][@stdlib/stats/array/min-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of an array via a callback function.</span>
+-   <span class="signature">[`min( x )`][@stdlib/stats/array/min]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of an array.</span>
+-   <span class="signature">[`minabs( x )`][@stdlib/stats/array/minabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of an array.</span>
+-   <span class="signature">[`minsorted( x )`][@stdlib/stats/array/minsorted]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a sorted array.</span>
+-   <span class="signature">[`mskmax( x, mask )`][@stdlib/stats/array/mskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of an array according to a mask.</span>
+-   <span class="signature">[`mskmin( x, mask )`][@stdlib/stats/array/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of an array according to a mask.</span>
+-   <span class="signature">[`mskrange( x, mask )`][@stdlib/stats/array/mskrange]</span><span class="delimiter">: </span><span class="description">calculate the range of an array according to a mask.</span>
+-   <span class="signature">[`nanmax( x )`][@stdlib/stats/array/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of an array, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanmin( x )`][@stdlib/stats/array/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of an array, ignoring `NaN` values.</span>
+-   <span class="signature">[`varianceyc( x[, correction] )`][@stdlib/stats/array/varianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of an array using a one-pass algorithm proposed by Youngs and Cramer.</span>
+
+</div>
 
 <!-- </toc> -->
 
@@ -116,21 +131,11 @@ The namespace exports the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/stats-array' );
 
 console.log( objectKeys( ns ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -216,6 +221,42 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/stats-array/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-array/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/stats/array/max-by]: https://github.com/stdlib-js/stats-array-max-by
+
+[@stdlib/stats/array/max]: https://github.com/stdlib-js/stats-array-max
+
+[@stdlib/stats/array/maxabs]: https://github.com/stdlib-js/stats-array-maxabs
+
+[@stdlib/stats/array/maxsorted]: https://github.com/stdlib-js/stats-array-maxsorted
+
+[@stdlib/stats/array/mean]: https://github.com/stdlib-js/stats-array-mean
+
+[@stdlib/stats/array/mediansorted]: https://github.com/stdlib-js/stats-array-mediansorted
+
+[@stdlib/stats/array/min-by]: https://github.com/stdlib-js/stats-array-min-by
+
+[@stdlib/stats/array/min]: https://github.com/stdlib-js/stats-array-min
+
+[@stdlib/stats/array/minabs]: https://github.com/stdlib-js/stats-array-minabs
+
+[@stdlib/stats/array/minsorted]: https://github.com/stdlib-js/stats-array-minsorted
+
+[@stdlib/stats/array/mskmax]: https://github.com/stdlib-js/stats-array-mskmax
+
+[@stdlib/stats/array/mskmin]: https://github.com/stdlib-js/stats-array-mskmin
+
+[@stdlib/stats/array/mskrange]: https://github.com/stdlib-js/stats-array-mskrange
+
+[@stdlib/stats/array/nanmax]: https://github.com/stdlib-js/stats-array-nanmax
+
+[@stdlib/stats/array/nanmin]: https://github.com/stdlib-js/stats-array-nanmin
+
+[@stdlib/stats/array/varianceyc]: https://github.com/stdlib-js/stats-array-varianceyc
+
+<!-- </toc-links> -->
 
 </section>
 
