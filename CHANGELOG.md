@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-06-05)
 
 <section class="features">
 
 ### Features
 
+-   [`6a582d2`](https://github.com/stdlib-js/stdlib/commit/6a582d2d70bb992927c3ff8790dbb06376921f71) - add `nanmaxabs` and `nanrange` to namespace
+-   [`9c7fa03`](https://github.com/stdlib-js/stdlib/commit/9c7fa0344102be742e9a7f100a7d9490d700da41) - add `nanmaxBy` to namespace
+-   [`937d30e`](https://github.com/stdlib-js/stdlib/commit/937d30e922d22d2d1630adb696a423c5f29fffe4) - add `stats/array/nanmax-by` [(#7204)](https://github.com/stdlib-js/stdlib/pull/7204)
+-   [`f66ef4f`](https://github.com/stdlib-js/stdlib/commit/f66ef4f470b76550b1634371cbaa1a4ab6c54b3b) - add `stats/array/nanmaxabs` [(#7172)](https://github.com/stdlib-js/stdlib/pull/7172)
+-   [`ec8118b`](https://github.com/stdlib-js/stdlib/commit/ec8118b138efccc2c6440716635b422843f9a184) - add `stats/array/nanrange` [(#7178)](https://github.com/stdlib-js/stdlib/pull/7178)
 -   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - add `minBy` to namespace
 -   [`5501d03`](https://github.com/stdlib-js/stdlib/commit/5501d03eff68bf9916ae5daff0ce8d8aa1b561b8) - add `stats/array/min-by` [(#7155)](https://github.com/stdlib-js/stdlib/pull/7155)
 -   [`e9e996f`](https://github.com/stdlib-js/stdlib/commit/e9e996f3b7b37ebea1332bd7e55af23856b61e6b) - add aliases to namespace
@@ -40,6 +45,19 @@
 
 <details>
 
+-   [`6a582d2`](https://github.com/stdlib-js/stdlib/commit/6a582d2d70bb992927c3ff8790dbb06376921f71) - **feat:** add `nanmaxabs` and `nanrange` to namespace _(by Athan Reines)_
+-   [`9c7fa03`](https://github.com/stdlib-js/stdlib/commit/9c7fa0344102be742e9a7f100a7d9490d700da41) - **feat:** add `nanmaxBy` to namespace _(by Athan Reines)_
+-   [`937d30e`](https://github.com/stdlib-js/stdlib/commit/937d30e922d22d2d1630adb696a423c5f29fffe4) - **feat:** add `stats/array/nanmax-by` [(#7204)](https://github.com/stdlib-js/stdlib/pull/7204) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
+-   [`eb4a2bd`](https://github.com/stdlib-js/stdlib/commit/eb4a2bd46a96c9d4315bf542d419996716b4ce8e) - **docs:** fix parameter type _(by Athan Reines)_
+-   [`e8d54b0`](https://github.com/stdlib-js/stdlib/commit/e8d54b0a5e8188e9583842f606191176c847b5a7) - **docs:** fix parameter type _(by Athan Reines)_
+-   [`61acb8f`](https://github.com/stdlib-js/stdlib/commit/61acb8f57954317098c7279713b480217dfeabff) - **docs:** fix parameter type _(by Athan Reines)_
+-   [`b3ac7b2`](https://github.com/stdlib-js/stdlib/commit/b3ac7b2586d57556fe367ffb6a51aae824e6b0a3) - **docs:** parameter type _(by Athan Reines)_
+-   [`9da485e`](https://github.com/stdlib-js/stdlib/commit/9da485ef4f27ad097efa6a99cc23fd338563fb24) - **refactor:** allow arrays of any dtype _(by Athan Reines)_
+-   [`61b019f`](https://github.com/stdlib-js/stdlib/commit/61b019f6e730e0261c5cf1b070895451ba4abffd) - **docs:** fix input type _(by Athan Reines)_
+-   [`ee3f5ae`](https://github.com/stdlib-js/stdlib/commit/ee3f5ae5b8c3a4c6522dc9c03972507204814f3f) - **test:** use function declaration _(by Athan Reines)_
+-   [`1a721d0`](https://github.com/stdlib-js/stdlib/commit/1a721d05d7e63de943935a09f024d6cf52208e38) - **refactor:** allow arrays of any dtype _(by Athan Reines)_
+-   [`f66ef4f`](https://github.com/stdlib-js/stdlib/commit/f66ef4f470b76550b1634371cbaa1a4ab6c54b3b) - **feat:** add `stats/array/nanmaxabs` [(#7172)](https://github.com/stdlib-js/stdlib/pull/7172) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_
+-   [`ec8118b`](https://github.com/stdlib-js/stdlib/commit/ec8118b138efccc2c6440716635b422843f9a184) - **feat:** add `stats/array/nanrange` [(#7178)](https://github.com/stdlib-js/stdlib/pull/7178) _(by Gururaj Gurram)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`4905a27`](https://github.com/stdlib-js/stdlib/commit/4905a27a366974bb37b57d26eb238c2713797132) - **feat:** add `minBy` to namespace _(by Athan Reines)_
 -   [`5501d03`](https://github.com/stdlib-js/stdlib/commit/5501d03eff68bf9916ae5daff0ce8d8aa1b561b8) - **feat:** add `stats/array/min-by` [(#7155)](https://github.com/stdlib-js/stdlib/pull/7155) _(by Gururaj Gurram, stdlib-bot)_
