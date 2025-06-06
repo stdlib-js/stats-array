@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-05)
+## Unreleased (2025-06-06)
 
 <section class="features">
 
 ### Features
 
+-   [`223ace2`](https://github.com/stdlib-js/stdlib/commit/223ace2eeeabb389a306d0f7fdc06b08332c1457) - add `stats/array/nanminabs` [(#7225)](https://github.com/stdlib-js/stdlib/pull/7225)
 -   [`6a582d2`](https://github.com/stdlib-js/stdlib/commit/6a582d2d70bb992927c3ff8790dbb06376921f71) - add `nanmaxabs` and `nanrange` to namespace
 -   [`9c7fa03`](https://github.com/stdlib-js/stdlib/commit/9c7fa0344102be742e9a7f100a7d9490d700da41) - add `nanmaxBy` to namespace
 -   [`937d30e`](https://github.com/stdlib-js/stdlib/commit/937d30e922d22d2d1630adb696a423c5f29fffe4) - add `stats/array/nanmax-by` [(#7204)](https://github.com/stdlib-js/stdlib/pull/7204)
@@ -45,6 +46,8 @@
 
 <details>
 
+-   [`03e5c54`](https://github.com/stdlib-js/stdlib/commit/03e5c54b90e538bee276484281d2e4553d7ec83e) - **docs:** update namespace table of contents [(#7233)](https://github.com/stdlib-js/stdlib/pull/7233) _(by stdlib-bot)_
+-   [`223ace2`](https://github.com/stdlib-js/stdlib/commit/223ace2eeeabb389a306d0f7fdc06b08332c1457) - **feat:** add `stats/array/nanminabs` [(#7225)](https://github.com/stdlib-js/stdlib/pull/7225) _(by Gururaj Gurram)_
 -   [`6a582d2`](https://github.com/stdlib-js/stdlib/commit/6a582d2d70bb992927c3ff8790dbb06376921f71) - **feat:** add `nanmaxabs` and `nanrange` to namespace _(by Athan Reines)_
 -   [`9c7fa03`](https://github.com/stdlib-js/stdlib/commit/9c7fa0344102be742e9a7f100a7d9490d700da41) - **feat:** add `nanmaxBy` to namespace _(by Athan Reines)_
 -   [`937d30e`](https://github.com/stdlib-js/stdlib/commit/937d30e922d22d2d1630adb696a423c5f29fffe4) - **feat:** add `stats/array/nanmax-by` [(#7204)](https://github.com/stdlib-js/stdlib/pull/7204) _(by Gururaj Gurram, Athan Reines, stdlib-bot)_

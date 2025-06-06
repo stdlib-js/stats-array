@@ -97,6 +97,7 @@
     "@stdlib/stats-base-nanmax-by": "^0.2.2",
     "@stdlib/stats-base-nanmaxabs": "^0.2.2",
     "@stdlib/stats-base-nanmin": "^0.2.2",
+    "@stdlib/stats-base-nanminabs": "^0.2.2",
     "@stdlib/stats-base-nanrange": "^0.2.2",
     "@stdlib/stats-base-varianceyc": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
