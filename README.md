@@ -104,8 +104,11 @@ The namespace exports the following:
 -   <span class="signature">[`nanmaxBy( x, clbk[, thisArg] )`][@stdlib/stats/array/nanmax-by]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of an array via a callback function, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmax( x )`][@stdlib/stats/array/nanmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of an array, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmaxabs( x )`][@stdlib/stats/array/nanmaxabs]</span><span class="delimiter">: </span><span class="description">calculate the maximum absolute value of an array, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanminBy( x, clbk[, thisArg] )`][@stdlib/stats/array/nanmin-by]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of an array via a callback function, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanmin( x )`][@stdlib/stats/array/nanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of an array, ignoring `NaN` values.</span>
+-   <span class="signature">[`nanminabs( x )`][@stdlib/stats/array/nanminabs]</span><span class="delimiter">: </span><span class="description">calculate the minimum absolute value of an array, ignoring `NaN` values.</span>
 -   <span class="signature">[`nanrange( x )`][@stdlib/stats/array/nanrange]</span><span class="delimiter">: </span><span class="description">calculate the range of an array, ignoring `NaN` values.</span>
+-   <span class="signature">[`range( x )`][@stdlib/stats/array/range]</span><span class="delimiter">: </span><span class="description">calculate the range of an array.</span>
 -   <span class="signature">[`varianceyc( x[, correction] )`][@stdlib/stats/array/varianceyc]</span><span class="delimiter">: </span><span class="description">calculate the variance of an array using a one-pass algorithm proposed by Youngs and Cramer.</span>
 
 </div>
@@ -259,9 +262,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/array/nanmaxabs]: https://github.com/stdlib-js/stats-array-nanmaxabs
 
+[@stdlib/stats/array/nanmin-by]: https://github.com/stdlib-js/stats-array-nanmin-by
+
 [@stdlib/stats/array/nanmin]: https://github.com/stdlib-js/stats-array-nanmin
 
+[@stdlib/stats/array/nanminabs]: https://github.com/stdlib-js/stats-array-nanminabs
+
 [@stdlib/stats/array/nanrange]: https://github.com/stdlib-js/stats-array-nanrange
+
+[@stdlib/stats/array/range]: https://github.com/stdlib-js/stats-array-range
 
 [@stdlib/stats/array/varianceyc]: https://github.com/stdlib-js/stats-array-varianceyc
 
