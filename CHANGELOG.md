@@ -4,12 +4,25 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-08)
+## Unreleased (2025-08-20)
 
 <section class="features">
 
 ### Features
 
+-   [`736e2ec`](https://github.com/stdlib-js/stdlib/commit/736e2ecb55d3f408c5cc4370206bc221207df319) - add missing `stats/array` exports to namespace
+-   [`dc7133c`](https://github.com/stdlib-js/stdlib/commit/dc7133ce521ff84759cb75e0c1955cfe38de220f) - add `stats/array/nanstdevyc` [(#7658)](https://github.com/stdlib-js/stdlib/pull/7658)
+-   [`6f6f7ba`](https://github.com/stdlib-js/stdlib/commit/6f6f7bacbc5480068b07969112a20fb9ed3bde15) - add `stats/array/nanstdevwd` [(#7657)](https://github.com/stdlib-js/stdlib/pull/7657)
+-   [`b5e028e`](https://github.com/stdlib-js/stdlib/commit/b5e028e71bd38e4a6e13f6c52ad8ebfe94b11711) - add `stats/array/nanstdevtk` [(#7656)](https://github.com/stdlib-js/stdlib/pull/7656)
+-   [`692b133`](https://github.com/stdlib-js/stdlib/commit/692b1330473b00a12db88ff52c7975a3e203ec71) - add `stats/array/nanstdevpn` [(#7655)](https://github.com/stdlib-js/stdlib/pull/7655)
+-   [`3447088`](https://github.com/stdlib-js/stdlib/commit/3447088db3fbd5cb9b1e5a6146969277e2e375e8) - add `stats/array/nanstdev` [(#7652)](https://github.com/stdlib-js/stdlib/pull/7652)
+-   [`a3f89b4`](https://github.com/stdlib-js/stdlib/commit/a3f89b4b7e3a642a9efad7e83893ad8b29fa96b3) - add `stats/array/nanstdevch` [(#7654)](https://github.com/stdlib-js/stdlib/pull/7654)
+-   [`c08c615`](https://github.com/stdlib-js/stdlib/commit/c08c6152cebe101c5fb16668a708f876cc6c69e3) - add `stats/array/nanvariance` [(#7667)](https://github.com/stdlib-js/stdlib/pull/7667)
+-   [`1eff904`](https://github.com/stdlib-js/stdlib/commit/1eff904ba1b4cf11d0a9908932212d419feda2f6) - add `stats/array/nanvariancepn` [(#7666)](https://github.com/stdlib-js/stdlib/pull/7666)
+-   [`148bde4`](https://github.com/stdlib-js/stdlib/commit/148bde49c5a7937d6815cbeae7359864c5e04723) - add `stats/array/nanvariancech` [(#7668)](https://github.com/stdlib-js/stdlib/pull/7668)
+-   [`2cd5e79`](https://github.com/stdlib-js/stdlib/commit/2cd5e794d0dd839722394961b2391ad834acc1ae) - add `stats/array/nanvariancewd` [(#7670)](https://github.com/stdlib-js/stdlib/pull/7670)
+-   [`ae5c67b`](https://github.com/stdlib-js/stdlib/commit/ae5c67b8e09fd854d60dc1a5bffc165c49137973) - add `stats/array/nanvarianceyc` [(#7671)](https://github.com/stdlib-js/stdlib/pull/7671)
+-   [`472e0d6`](https://github.com/stdlib-js/stdlib/commit/472e0d63461ac223557f1bb0a0ac9407d4cc6b4a) - add `stats/array/nanvariancetk` [(#7669)](https://github.com/stdlib-js/stdlib/pull/7669)
 -   [`8c140c1`](https://github.com/stdlib-js/stdlib/commit/8c140c149134fa06a098b8876785a870fdaf6dbd) - add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace
 -   [`00aa2c3`](https://github.com/stdlib-js/stdlib/commit/00aa2c3ea08a8c03b6aed11fb2e4063fe3ede82c) - add `variance`, `variancech`, `variancepn`, `variancetk`, and `variancewd` to namespace
 -   [`7e0b97b`](https://github.com/stdlib-js/stdlib/commit/7e0b97b2994d89ca1577175fd2c1f58db011ce6c) - add `nanrangeBy` and `rangeBy` to namespace
@@ -77,12 +90,61 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - use correct package names in package.json
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`736e2ec`](https://github.com/stdlib-js/stdlib/commit/736e2ecb55d3f408c5cc4370206bc221207df319) - **feat:** add missing `stats/array` exports to namespace _(by Philipp Burckhardt)_
+-   [`842892d`](https://github.com/stdlib-js/stdlib/commit/842892db70da69098d8fb271ea19ae45c09a8a0e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`07d7a23`](https://github.com/stdlib-js/stdlib/commit/07d7a2388a8916c3f70c18abcc51b4086898bb1a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`fb392ac`](https://github.com/stdlib-js/stdlib/commit/fb392ac4d71e19a7c67a55e896b02f37f2532895) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`e4f8248`](https://github.com/stdlib-js/stdlib/commit/e4f8248932a64a941c0d0ce77ea312b235538440) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`2b60991`](https://github.com/stdlib-js/stdlib/commit/2b60991ba7ea2b01b7255f1db6495372b7acf22e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`a4c984e`](https://github.com/stdlib-js/stdlib/commit/a4c984e1cd0ee9c733b6575c8a2bf669c1ac1190) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`fd741a4`](https://github.com/stdlib-js/stdlib/commit/fd741a47f8c8efb5db781409587903f99470a05e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`dc7133c`](https://github.com/stdlib-js/stdlib/commit/dc7133ce521ff84759cb75e0c1955cfe38de220f) - **feat:** add `stats/array/nanstdevyc` [(#7658)](https://github.com/stdlib-js/stdlib/pull/7658) _(by Gururaj Gurram)_
+-   [`6f6f7ba`](https://github.com/stdlib-js/stdlib/commit/6f6f7bacbc5480068b07969112a20fb9ed3bde15) - **feat:** add `stats/array/nanstdevwd` [(#7657)](https://github.com/stdlib-js/stdlib/pull/7657) _(by Gururaj Gurram)_
+-   [`b5e028e`](https://github.com/stdlib-js/stdlib/commit/b5e028e71bd38e4a6e13f6c52ad8ebfe94b11711) - **feat:** add `stats/array/nanstdevtk` [(#7656)](https://github.com/stdlib-js/stdlib/pull/7656) _(by Gururaj Gurram)_
+-   [`692b133`](https://github.com/stdlib-js/stdlib/commit/692b1330473b00a12db88ff52c7975a3e203ec71) - **feat:** add `stats/array/nanstdevpn` [(#7655)](https://github.com/stdlib-js/stdlib/pull/7655) _(by Gururaj Gurram)_
+-   [`27435b3`](https://github.com/stdlib-js/stdlib/commit/27435b36d50175f885a99d5a4e17c999225a9533) - **docs:** remove trailing empty lines [(#7701)](https://github.com/stdlib-js/stdlib/pull/7701) _(by stdlib-bot)_
+-   [`599039a`](https://github.com/stdlib-js/stdlib/commit/599039a0832889aaec19083e6d918e519edddb00) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3e5f087`](https://github.com/stdlib-js/stdlib/commit/3e5f087480788b58307242117587a8564114519f) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`61c4728`](https://github.com/stdlib-js/stdlib/commit/61c4728812031ccccd496101dd7a87d13782b562) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`680b881`](https://github.com/stdlib-js/stdlib/commit/680b8812b7444a45b2d92c2c1c55ce29ab2366a4) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`2dc1303`](https://github.com/stdlib-js/stdlib/commit/2dc13030ffbb6ce3701cfdbb8fab4b648fe37fc4) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`ba4ee56`](https://github.com/stdlib-js/stdlib/commit/ba4ee5616dfe77f6c5254024aab2b8183f2c4232) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`3447088`](https://github.com/stdlib-js/stdlib/commit/3447088db3fbd5cb9b1e5a6146969277e2e375e8) - **feat:** add `stats/array/nanstdev` [(#7652)](https://github.com/stdlib-js/stdlib/pull/7652) _(by Gururaj Gurram, Athan Reines)_
+-   [`1b65a25`](https://github.com/stdlib-js/stdlib/commit/1b65a2501f3f98168a8528532bdcadacaea818b8) - **style:** remove backticks _(by Athan Reines)_
+-   [`ba735e1`](https://github.com/stdlib-js/stdlib/commit/ba735e18b51ccf5709eb5d95418f0e39bdb86e99) - **docs:** fix typo _(by Athan Reines)_
+-   [`5388bba`](https://github.com/stdlib-js/stdlib/commit/5388bba36044d2de93dacb0134c6e5539b02928c) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`a3f89b4`](https://github.com/stdlib-js/stdlib/commit/a3f89b4b7e3a642a9efad7e83893ad8b29fa96b3) - **feat:** add `stats/array/nanstdevch` [(#7654)](https://github.com/stdlib-js/stdlib/pull/7654) _(by Gururaj Gurram, Athan Reines)_
+-   [`5d6b241`](https://github.com/stdlib-js/stdlib/commit/5d6b24158bfaf492d511bb1fe3460e15c3634f5b) - **docs:** update notes and copy _(by Athan Reines)_
+-   [`c08c615`](https://github.com/stdlib-js/stdlib/commit/c08c6152cebe101c5fb16668a708f876cc6c69e3) - **feat:** add `stats/array/nanvariance` [(#7667)](https://github.com/stdlib-js/stdlib/pull/7667) _(by Gururaj Gurram, Athan Reines)_
+-   [`1eff904`](https://github.com/stdlib-js/stdlib/commit/1eff904ba1b4cf11d0a9908932212d419feda2f6) - **feat:** add `stats/array/nanvariancepn` [(#7666)](https://github.com/stdlib-js/stdlib/pull/7666) _(by Gururaj Gurram, Athan Reines)_
+-   [`148bde4`](https://github.com/stdlib-js/stdlib/commit/148bde49c5a7937d6815cbeae7359864c5e04723) - **feat:** add `stats/array/nanvariancech` [(#7668)](https://github.com/stdlib-js/stdlib/pull/7668) _(by Gururaj Gurram, Athan Reines)_
+-   [`2cd5e79`](https://github.com/stdlib-js/stdlib/commit/2cd5e794d0dd839722394961b2391ad834acc1ae) - **feat:** add `stats/array/nanvariancewd` [(#7670)](https://github.com/stdlib-js/stdlib/pull/7670) _(by Gururaj Gurram, Athan Reines)_
+-   [`ae5c67b`](https://github.com/stdlib-js/stdlib/commit/ae5c67b8e09fd854d60dc1a5bffc165c49137973) - **feat:** add `stats/array/nanvarianceyc` [(#7671)](https://github.com/stdlib-js/stdlib/pull/7671) _(by Gururaj Gurram, Athan Reines)_
+-   [`472e0d6`](https://github.com/stdlib-js/stdlib/commit/472e0d63461ac223557f1bb0a0ac9407d4cc6b4a) - **feat:** add `stats/array/nanvariancetk` [(#7669)](https://github.com/stdlib-js/stdlib/pull/7669) _(by Gururaj Gurram, Athan Reines)_
+-   [`028d338`](https://github.com/stdlib-js/stdlib/commit/028d338ec185c667fb62c8dafe7011a60287ad3a) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`8c107ba`](https://github.com/stdlib-js/stdlib/commit/8c107ba16d7d2b6e4a37fc8fbbdf54553385414c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`b9f9779`](https://github.com/stdlib-js/stdlib/commit/b9f97793ddf7d6afeb64a6a42c821f9337acb993) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`a478ac6`](https://github.com/stdlib-js/stdlib/commit/a478ac64883bb557ea66c3026f9c112696a0878e) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`790c636`](https://github.com/stdlib-js/stdlib/commit/790c6365997dbc302ef6a312210fc3d74b423da3) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`f182fe8`](https://github.com/stdlib-js/stdlib/commit/f182fe83c16c349237c898796505f80f34c2ec31) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`493ccaf`](https://github.com/stdlib-js/stdlib/commit/493ccaf407a78b7ea088b517a67053e2f7948487) - **test:** rename variable _(by Athan Reines)_
+-   [`2a0ea7f`](https://github.com/stdlib-js/stdlib/commit/2a0ea7feb22806685fef9eac8a32d7012dab7adc) - **fix:** use correct package names in package.json _(by Philipp Burckhardt)_
 -   [`8c140c1`](https://github.com/stdlib-js/stdlib/commit/8c140c149134fa06a098b8876785a870fdaf6dbd) - **feat:** add `stdev`, `stdevch`, `stdevpn`, `stdevtk`, `stdevwd`, and `stdevyc` to namespace _(by Athan Reines)_
 -   [`00aa2c3`](https://github.com/stdlib-js/stdlib/commit/00aa2c3ea08a8c03b6aed11fb2e4063fe3ede82c) - **feat:** add `variance`, `variancech`, `variancepn`, `variancetk`, and `variancewd` to namespace _(by Athan Reines)_
 -   [`7e0b97b`](https://github.com/stdlib-js/stdlib/commit/7e0b97b2994d89ca1577175fd2c1f58db011ce6c) - **feat:** add `nanrangeBy` and `rangeBy` to namespace _(by Athan Reines)_
