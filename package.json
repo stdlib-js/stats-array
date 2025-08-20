@@ -182,7 +182,7 @@
     "@stdlib/stats-strided-variancetk": "github:stdlib-js/stats-strided-variancetk#main",
     "@stdlib/stats-strided-variancewd": "github:stdlib-js/stats-strided-variancewd#main",
     "@stdlib/stats-strided-varianceyc": "github:stdlib-js/stats-strided-varianceyc#main",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/utils-keys": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
