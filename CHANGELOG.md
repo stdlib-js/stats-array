@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-20)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
 ### Features
 
+-   [`66f5e9d`](https://github.com/stdlib-js/stdlib/commit/66f5e9dd712a3448b777f5b318a4cb316252fd45) - update `stats/array` TypeScript declarations
 -   [`736e2ec`](https://github.com/stdlib-js/stdlib/commit/736e2ecb55d3f408c5cc4370206bc221207df319) - add missing `stats/array` exports to namespace
 -   [`dc7133c`](https://github.com/stdlib-js/stdlib/commit/dc7133ce521ff84759cb75e0c1955cfe38de220f) - add `stats/array/nanstdevyc` [(#7658)](https://github.com/stdlib-js/stdlib/pull/7658)
 -   [`6f6f7ba`](https://github.com/stdlib-js/stdlib/commit/6f6f7bacbc5480068b07969112a20fb9ed3bde15) - add `stats/array/nanstdevwd` [(#7657)](https://github.com/stdlib-js/stdlib/pull/7657)
@@ -106,6 +107,9 @@
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`66f5e9d`](https://github.com/stdlib-js/stdlib/commit/66f5e9dd712a3448b777f5b318a4cb316252fd45) - **feat:** update `stats/array` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`82be305`](https://github.com/stdlib-js/stdlib/commit/82be305dfecc75ac71e18dbed841aa6f8022e7be) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
 -   [`736e2ec`](https://github.com/stdlib-js/stdlib/commit/736e2ecb55d3f408c5cc4370206bc221207df319) - **feat:** add missing `stats/array` exports to namespace _(by Philipp Burckhardt)_
 -   [`842892d`](https://github.com/stdlib-js/stdlib/commit/842892db70da69098d8fb271ea19ae45c09a8a0e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`07d7a23`](https://github.com/stdlib-js/stdlib/commit/07d7a2388a8916c3f70c18abcc51b4086898bb1a) - **refactor:** update paths _(by Gururaj Gurram)_
