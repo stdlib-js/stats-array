@@ -45,32 +45,38 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-array
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var ns = require( '@stdlib/stats-array' );
+ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var ns = require( 'path/to/vendor/umd/stats-array/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.ns;
+})();
+</script>
 ```
 
 #### ns
@@ -175,11 +181,21 @@ The namespace exports the following:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/stats-array' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( objectKeys( ns ) );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -268,125 +284,125 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/array/max-by]: https://github.com/stdlib-js/stats-array-max-by
+[@stdlib/stats/array/max-by]: https://github.com/stdlib-js/stats-array-max-by/tree/umd
 
-[@stdlib/stats/array/max]: https://github.com/stdlib-js/stats-array-max
+[@stdlib/stats/array/max]: https://github.com/stdlib-js/stats-array-max/tree/umd
 
-[@stdlib/stats/array/maxabs]: https://github.com/stdlib-js/stats-array-maxabs
+[@stdlib/stats/array/maxabs]: https://github.com/stdlib-js/stats-array-maxabs/tree/umd
 
-[@stdlib/stats/array/maxsorted]: https://github.com/stdlib-js/stats-array-maxsorted
+[@stdlib/stats/array/maxsorted]: https://github.com/stdlib-js/stats-array-maxsorted/tree/umd
 
-[@stdlib/stats/array/mean]: https://github.com/stdlib-js/stats-array-mean
+[@stdlib/stats/array/mean]: https://github.com/stdlib-js/stats-array-mean/tree/umd
 
-[@stdlib/stats/array/meankbn]: https://github.com/stdlib-js/stats-array-meankbn
+[@stdlib/stats/array/meankbn]: https://github.com/stdlib-js/stats-array-meankbn/tree/umd
 
-[@stdlib/stats/array/meankbn2]: https://github.com/stdlib-js/stats-array-meankbn2
+[@stdlib/stats/array/meankbn2]: https://github.com/stdlib-js/stats-array-meankbn2/tree/umd
 
-[@stdlib/stats/array/meanors]: https://github.com/stdlib-js/stats-array-meanors
+[@stdlib/stats/array/meanors]: https://github.com/stdlib-js/stats-array-meanors/tree/umd
 
-[@stdlib/stats/array/meanpn]: https://github.com/stdlib-js/stats-array-meanpn
+[@stdlib/stats/array/meanpn]: https://github.com/stdlib-js/stats-array-meanpn/tree/umd
 
-[@stdlib/stats/array/meanpw]: https://github.com/stdlib-js/stats-array-meanpw
+[@stdlib/stats/array/meanpw]: https://github.com/stdlib-js/stats-array-meanpw/tree/umd
 
-[@stdlib/stats/array/meanwd]: https://github.com/stdlib-js/stats-array-meanwd
+[@stdlib/stats/array/meanwd]: https://github.com/stdlib-js/stats-array-meanwd/tree/umd
 
-[@stdlib/stats/array/mediansorted]: https://github.com/stdlib-js/stats-array-mediansorted
+[@stdlib/stats/array/mediansorted]: https://github.com/stdlib-js/stats-array-mediansorted/tree/umd
 
-[@stdlib/stats/array/min-by]: https://github.com/stdlib-js/stats-array-min-by
+[@stdlib/stats/array/min-by]: https://github.com/stdlib-js/stats-array-min-by/tree/umd
 
-[@stdlib/stats/array/min]: https://github.com/stdlib-js/stats-array-min
+[@stdlib/stats/array/min]: https://github.com/stdlib-js/stats-array-min/tree/umd
 
-[@stdlib/stats/array/minabs]: https://github.com/stdlib-js/stats-array-minabs
+[@stdlib/stats/array/minabs]: https://github.com/stdlib-js/stats-array-minabs/tree/umd
 
-[@stdlib/stats/array/minsorted]: https://github.com/stdlib-js/stats-array-minsorted
+[@stdlib/stats/array/minsorted]: https://github.com/stdlib-js/stats-array-minsorted/tree/umd
 
-[@stdlib/stats/array/mskmax]: https://github.com/stdlib-js/stats-array-mskmax
+[@stdlib/stats/array/mskmax]: https://github.com/stdlib-js/stats-array-mskmax/tree/umd
 
-[@stdlib/stats/array/mskmin]: https://github.com/stdlib-js/stats-array-mskmin
+[@stdlib/stats/array/mskmin]: https://github.com/stdlib-js/stats-array-mskmin/tree/umd
 
-[@stdlib/stats/array/mskrange]: https://github.com/stdlib-js/stats-array-mskrange
+[@stdlib/stats/array/mskrange]: https://github.com/stdlib-js/stats-array-mskrange/tree/umd
 
-[@stdlib/stats/array/nanmax-by]: https://github.com/stdlib-js/stats-array-nanmax-by
+[@stdlib/stats/array/nanmax-by]: https://github.com/stdlib-js/stats-array-nanmax-by/tree/umd
 
-[@stdlib/stats/array/nanmax]: https://github.com/stdlib-js/stats-array-nanmax
+[@stdlib/stats/array/nanmax]: https://github.com/stdlib-js/stats-array-nanmax/tree/umd
 
-[@stdlib/stats/array/nanmaxabs]: https://github.com/stdlib-js/stats-array-nanmaxabs
+[@stdlib/stats/array/nanmaxabs]: https://github.com/stdlib-js/stats-array-nanmaxabs/tree/umd
 
-[@stdlib/stats/array/nanmean]: https://github.com/stdlib-js/stats-array-nanmean
+[@stdlib/stats/array/nanmean]: https://github.com/stdlib-js/stats-array-nanmean/tree/umd
 
-[@stdlib/stats/array/nanmeanors]: https://github.com/stdlib-js/stats-array-nanmeanors
+[@stdlib/stats/array/nanmeanors]: https://github.com/stdlib-js/stats-array-nanmeanors/tree/umd
 
-[@stdlib/stats/array/nanmeanpn]: https://github.com/stdlib-js/stats-array-nanmeanpn
+[@stdlib/stats/array/nanmeanpn]: https://github.com/stdlib-js/stats-array-nanmeanpn/tree/umd
 
-[@stdlib/stats/array/nanmeanwd]: https://github.com/stdlib-js/stats-array-nanmeanwd
+[@stdlib/stats/array/nanmeanwd]: https://github.com/stdlib-js/stats-array-nanmeanwd/tree/umd
 
-[@stdlib/stats/array/nanmin-by]: https://github.com/stdlib-js/stats-array-nanmin-by
+[@stdlib/stats/array/nanmin-by]: https://github.com/stdlib-js/stats-array-nanmin-by/tree/umd
 
-[@stdlib/stats/array/nanmin]: https://github.com/stdlib-js/stats-array-nanmin
+[@stdlib/stats/array/nanmin]: https://github.com/stdlib-js/stats-array-nanmin/tree/umd
 
-[@stdlib/stats/array/nanminabs]: https://github.com/stdlib-js/stats-array-nanminabs
+[@stdlib/stats/array/nanminabs]: https://github.com/stdlib-js/stats-array-nanminabs/tree/umd
 
-[@stdlib/stats/array/nanmskmax]: https://github.com/stdlib-js/stats-array-nanmskmax
+[@stdlib/stats/array/nanmskmax]: https://github.com/stdlib-js/stats-array-nanmskmax/tree/umd
 
-[@stdlib/stats/array/nanmskmin]: https://github.com/stdlib-js/stats-array-nanmskmin
+[@stdlib/stats/array/nanmskmin]: https://github.com/stdlib-js/stats-array-nanmskmin/tree/umd
 
-[@stdlib/stats/array/nanmskrange]: https://github.com/stdlib-js/stats-array-nanmskrange
+[@stdlib/stats/array/nanmskrange]: https://github.com/stdlib-js/stats-array-nanmskrange/tree/umd
 
-[@stdlib/stats/array/nanrange-by]: https://github.com/stdlib-js/stats-array-nanrange-by
+[@stdlib/stats/array/nanrange-by]: https://github.com/stdlib-js/stats-array-nanrange-by/tree/umd
 
-[@stdlib/stats/array/nanrange]: https://github.com/stdlib-js/stats-array-nanrange
+[@stdlib/stats/array/nanrange]: https://github.com/stdlib-js/stats-array-nanrange/tree/umd
 
-[@stdlib/stats/array/nanstdev]: https://github.com/stdlib-js/stats-array-nanstdev
+[@stdlib/stats/array/nanstdev]: https://github.com/stdlib-js/stats-array-nanstdev/tree/umd
 
-[@stdlib/stats/array/nanstdevch]: https://github.com/stdlib-js/stats-array-nanstdevch
+[@stdlib/stats/array/nanstdevch]: https://github.com/stdlib-js/stats-array-nanstdevch/tree/umd
 
-[@stdlib/stats/array/nanstdevpn]: https://github.com/stdlib-js/stats-array-nanstdevpn
+[@stdlib/stats/array/nanstdevpn]: https://github.com/stdlib-js/stats-array-nanstdevpn/tree/umd
 
-[@stdlib/stats/array/nanstdevtk]: https://github.com/stdlib-js/stats-array-nanstdevtk
+[@stdlib/stats/array/nanstdevtk]: https://github.com/stdlib-js/stats-array-nanstdevtk/tree/umd
 
-[@stdlib/stats/array/nanstdevwd]: https://github.com/stdlib-js/stats-array-nanstdevwd
+[@stdlib/stats/array/nanstdevwd]: https://github.com/stdlib-js/stats-array-nanstdevwd/tree/umd
 
-[@stdlib/stats/array/nanstdevyc]: https://github.com/stdlib-js/stats-array-nanstdevyc
+[@stdlib/stats/array/nanstdevyc]: https://github.com/stdlib-js/stats-array-nanstdevyc/tree/umd
 
-[@stdlib/stats/array/nanvariance]: https://github.com/stdlib-js/stats-array-nanvariance
+[@stdlib/stats/array/nanvariance]: https://github.com/stdlib-js/stats-array-nanvariance/tree/umd
 
-[@stdlib/stats/array/nanvariancech]: https://github.com/stdlib-js/stats-array-nanvariancech
+[@stdlib/stats/array/nanvariancech]: https://github.com/stdlib-js/stats-array-nanvariancech/tree/umd
 
-[@stdlib/stats/array/nanvariancepn]: https://github.com/stdlib-js/stats-array-nanvariancepn
+[@stdlib/stats/array/nanvariancepn]: https://github.com/stdlib-js/stats-array-nanvariancepn/tree/umd
 
-[@stdlib/stats/array/nanvariancetk]: https://github.com/stdlib-js/stats-array-nanvariancetk
+[@stdlib/stats/array/nanvariancetk]: https://github.com/stdlib-js/stats-array-nanvariancetk/tree/umd
 
-[@stdlib/stats/array/nanvariancewd]: https://github.com/stdlib-js/stats-array-nanvariancewd
+[@stdlib/stats/array/nanvariancewd]: https://github.com/stdlib-js/stats-array-nanvariancewd/tree/umd
 
-[@stdlib/stats/array/nanvarianceyc]: https://github.com/stdlib-js/stats-array-nanvarianceyc
+[@stdlib/stats/array/nanvarianceyc]: https://github.com/stdlib-js/stats-array-nanvarianceyc/tree/umd
 
-[@stdlib/stats/array/range-by]: https://github.com/stdlib-js/stats-array-range-by
+[@stdlib/stats/array/range-by]: https://github.com/stdlib-js/stats-array-range-by/tree/umd
 
-[@stdlib/stats/array/range]: https://github.com/stdlib-js/stats-array-range
+[@stdlib/stats/array/range]: https://github.com/stdlib-js/stats-array-range/tree/umd
 
-[@stdlib/stats/array/stdev]: https://github.com/stdlib-js/stats-array-stdev
+[@stdlib/stats/array/stdev]: https://github.com/stdlib-js/stats-array-stdev/tree/umd
 
-[@stdlib/stats/array/stdevch]: https://github.com/stdlib-js/stats-array-stdevch
+[@stdlib/stats/array/stdevch]: https://github.com/stdlib-js/stats-array-stdevch/tree/umd
 
-[@stdlib/stats/array/stdevpn]: https://github.com/stdlib-js/stats-array-stdevpn
+[@stdlib/stats/array/stdevpn]: https://github.com/stdlib-js/stats-array-stdevpn/tree/umd
 
-[@stdlib/stats/array/stdevtk]: https://github.com/stdlib-js/stats-array-stdevtk
+[@stdlib/stats/array/stdevtk]: https://github.com/stdlib-js/stats-array-stdevtk/tree/umd
 
-[@stdlib/stats/array/stdevwd]: https://github.com/stdlib-js/stats-array-stdevwd
+[@stdlib/stats/array/stdevwd]: https://github.com/stdlib-js/stats-array-stdevwd/tree/umd
 
-[@stdlib/stats/array/stdevyc]: https://github.com/stdlib-js/stats-array-stdevyc
+[@stdlib/stats/array/stdevyc]: https://github.com/stdlib-js/stats-array-stdevyc/tree/umd
 
-[@stdlib/stats/array/variance]: https://github.com/stdlib-js/stats-array-variance
+[@stdlib/stats/array/variance]: https://github.com/stdlib-js/stats-array-variance/tree/umd
 
-[@stdlib/stats/array/variancech]: https://github.com/stdlib-js/stats-array-variancech
+[@stdlib/stats/array/variancech]: https://github.com/stdlib-js/stats-array-variancech/tree/umd
 
-[@stdlib/stats/array/variancepn]: https://github.com/stdlib-js/stats-array-variancepn
+[@stdlib/stats/array/variancepn]: https://github.com/stdlib-js/stats-array-variancepn/tree/umd
 
-[@stdlib/stats/array/variancetk]: https://github.com/stdlib-js/stats-array-variancetk
+[@stdlib/stats/array/variancetk]: https://github.com/stdlib-js/stats-array-variancetk/tree/umd
 
-[@stdlib/stats/array/variancewd]: https://github.com/stdlib-js/stats-array-variancewd
+[@stdlib/stats/array/variancewd]: https://github.com/stdlib-js/stats-array-variancewd/tree/umd
 
-[@stdlib/stats/array/varianceyc]: https://github.com/stdlib-js/stats-array-varianceyc
+[@stdlib/stats/array/varianceyc]: https://github.com/stdlib-js/stats-array-varianceyc/tree/umd
 
 <!-- </toc-links> -->
 
