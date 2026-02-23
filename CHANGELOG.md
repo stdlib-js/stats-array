@@ -2,6 +2,69 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-23)
+
+<section class="features">
+
+### Features
+
+-   [`10b28fd`](https://github.com/stdlib-js/stdlib/commit/10b28fdb54393277d093066bf40c84412ca7601d) - add `stats/array/nanmidrange-by` [(#10273)](https://github.com/stdlib-js/stdlib/pull/10273)
+-   [`f04bd84`](https://github.com/stdlib-js/stdlib/commit/f04bd8446b04ed6a0e45822b20dbccf45bcb2ef7) - add `stats/array/mskmaxabs` [(#10280)](https://github.com/stdlib-js/stdlib/pull/10280)
+-   [`c7b5ae5`](https://github.com/stdlib-js/stdlib/commit/c7b5ae52a7ed0b5be7025ee3b93f8ae3f5d5aada) - add `stats/array/mskminabs` [(#10281)](https://github.com/stdlib-js/stdlib/pull/10281)
+-   [`7ef3bae`](https://github.com/stdlib-js/stdlib/commit/7ef3bae65f5d876db0c56d57ab84ea52e7699b7d) - add `stats/array/nanmskmidrange` [(#10224)](https://github.com/stdlib-js/stdlib/pull/10224)
+-   [`aec0634`](https://github.com/stdlib-js/stdlib/commit/aec0634d886bdade0dd7dd221bbe1bd655669594) - add `stats/array/rangeabs` [(#10227)](https://github.com/stdlib-js/stdlib/pull/10227)
+-   [`2a8cda9`](https://github.com/stdlib-js/stdlib/commit/2a8cda98b404d0507e04c4c62d572726a08b015a) - add `stats/array/midrange-by` [(#10263)](https://github.com/stdlib-js/stdlib/pull/10263)
+-   [`ab43b7f`](https://github.com/stdlib-js/stdlib/commit/ab43b7fff2a33d8e101f50d65d18bfa914dbfcf0) - add `stats/array/mskmidrange` [(#10221)](https://github.com/stdlib-js/stdlib/pull/10221)
+-   [`c70d9ed`](https://github.com/stdlib-js/stdlib/commit/c70d9eda1f4465e886f967cf09fdc54f0b11900d) - add `stats/array/midrange` [(#10189)](https://github.com/stdlib-js/stdlib/pull/10189)
+-   [`79a051f`](https://github.com/stdlib-js/stdlib/commit/79a051fbab0d43293a1cb71a92625c7dd2969bfa) - add `stats/array/nanmidrange` [(#10201)](https://github.com/stdlib-js/stdlib/pull/10201)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`33e3d9f`](https://github.com/stdlib-js/stdlib/commit/33e3d9f96ce3fc32b31dd3f46a017c92b73b0425) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`10b28fd`](https://github.com/stdlib-js/stdlib/commit/10b28fdb54393277d093066bf40c84412ca7601d) - **feat:** add `stats/array/nanmidrange-by` [(#10273)](https://github.com/stdlib-js/stdlib/pull/10273) _(by Om-A-osc, Philipp Burckhardt, Sachin Pangal)_
+-   [`f04bd84`](https://github.com/stdlib-js/stdlib/commit/f04bd8446b04ed6a0e45822b20dbccf45bcb2ef7) - **feat:** add `stats/array/mskmaxabs` [(#10280)](https://github.com/stdlib-js/stdlib/pull/10280) _(by Sachin Pangal)_
+-   [`c7b5ae5`](https://github.com/stdlib-js/stdlib/commit/c7b5ae52a7ed0b5be7025ee3b93f8ae3f5d5aada) - **feat:** add `stats/array/mskminabs` [(#10281)](https://github.com/stdlib-js/stdlib/pull/10281) _(by Sachin Pangal)_
+-   [`7ef3bae`](https://github.com/stdlib-js/stdlib/commit/7ef3bae65f5d876db0c56d57ab84ea52e7699b7d) - **feat:** add `stats/array/nanmskmidrange` [(#10224)](https://github.com/stdlib-js/stdlib/pull/10224) _(by Sachin Pangal, stdlib-bot)_
+-   [`aec0634`](https://github.com/stdlib-js/stdlib/commit/aec0634d886bdade0dd7dd221bbe1bd655669594) - **feat:** add `stats/array/rangeabs` [(#10227)](https://github.com/stdlib-js/stdlib/pull/10227) _(by Sachin Pangal)_
+-   [`2a8cda9`](https://github.com/stdlib-js/stdlib/commit/2a8cda98b404d0507e04c4c62d572726a08b015a) - **feat:** add `stats/array/midrange-by` [(#10263)](https://github.com/stdlib-js/stdlib/pull/10263) _(by Sachin Pangal, Philipp Burckhardt)_
+-   [`ab43b7f`](https://github.com/stdlib-js/stdlib/commit/ab43b7fff2a33d8e101f50d65d18bfa914dbfcf0) - **feat:** add `stats/array/mskmidrange` [(#10221)](https://github.com/stdlib-js/stdlib/pull/10221) _(by Sachin Pangal, Philipp Burckhardt)_
+-   [`c70d9ed`](https://github.com/stdlib-js/stdlib/commit/c70d9eda1f4465e886f967cf09fdc54f0b11900d) - **feat:** add `stats/array/midrange` [(#10189)](https://github.com/stdlib-js/stdlib/pull/10189) _(by Sachin Pangal)_
+-   [`79a051f`](https://github.com/stdlib-js/stdlib/commit/79a051fbab0d43293a1cb71a92625c7dd2969bfa) - **feat:** add `stats/array/nanmidrange` [(#10201)](https://github.com/stdlib-js/stdlib/pull/10201) _(by Sachin Pangal, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Om-A-osc
+-   Philipp Burckhardt
+-   Sachin Pangal
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
