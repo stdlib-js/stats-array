@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-23)
+## Unreleased (2026-03-16)
 
 <section class="features">
 
@@ -30,6 +30,15 @@
 
 <details>
 
+-   [`db2c323`](https://github.com/stdlib-js/stdlib/commit/db2c3239074dab803cc302baa478c033ef4a1e3b) - **bench:** refactor to use string interpolation in `stats/array/stdev` [(#10792)](https://github.com/stdlib-js/stdlib/pull/10792) _(by Aniket Sonawane, Athan Reines)_
+-   [`1ec3451`](https://github.com/stdlib-js/stdlib/commit/1ec34512653d2ce74a4b4fe9ad2a6392b56e4a93) - **bench:** refactor to use string interpolation in `stats/array/min` [(#10785)](https://github.com/stdlib-js/stdlib/pull/10785) _(by Aniket Sonawane)_
+-   [`dec8616`](https://github.com/stdlib-js/stdlib/commit/dec8616925247d81da1800ab71c3fa0e5946a6db) - **bench:** refactor to use string interpolation in `stats/array/min-by` [(#10786)](https://github.com/stdlib-js/stdlib/pull/10786) _(by Aniket Sonawane)_
+-   [`34f2f90`](https://github.com/stdlib-js/stdlib/commit/34f2f9060941e2dd7cd4840770547b1f8dc9f91f) - **bench:** refactor to use string interpolation in `stats/array/meankbn` [(#10787)](https://github.com/stdlib-js/stdlib/pull/10787) _(by Aniket Sonawane)_
+-   [`bbd880b`](https://github.com/stdlib-js/stdlib/commit/bbd880b65fbd2ec9973e4308943da956767f23da) - **bench:** refactor to use string interpolation in `stats/array/minsorted` [(#10788)](https://github.com/stdlib-js/stdlib/pull/10788) _(by Aniket Sonawane)_
+-   [`ffd68a0`](https://github.com/stdlib-js/stdlib/commit/ffd68a0037f7a409a5ada4ebfa75426eaa256bd2) - **bench:** refactor to use string interpolation in `stats/array/variancewd` [(#10789)](https://github.com/stdlib-js/stdlib/pull/10789) _(by Aniket Sonawane)_
+-   [`5e973f5`](https://github.com/stdlib-js/stdlib/commit/5e973f5a2ee811f5b21a6ed17d5bb6ddb851846e) - **bench:** refactor to use string interpolation in `stats/array/stdevch` [(#10790)](https://github.com/stdlib-js/stdlib/pull/10790) _(by Aniket Sonawane)_
+-   [`0fd3a03`](https://github.com/stdlib-js/stdlib/commit/0fd3a037ad4b606f6bca2242cb8d3352ffb3363c) - **bench:** refactor to use string interpolation in `stats/array/stdevpn` [(#10791)](https://github.com/stdlib-js/stdlib/pull/10791) _(by Aniket Sonawane)_
+-   [`e506e10`](https://github.com/stdlib-js/stdlib/commit/e506e10c96aef1b8f8d9a48ed9c6d289e81a763d) - **docs:** fix spelling _(by Athan Reines)_
 -   [`33e3d9f`](https://github.com/stdlib-js/stdlib/commit/33e3d9f96ce3fc32b31dd3f46a017c92b73b0425) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`10b28fd`](https://github.com/stdlib-js/stdlib/commit/10b28fdb54393277d093066bf40c84412ca7601d) - **feat:** add `stats/array/nanmidrange-by` [(#10273)](https://github.com/stdlib-js/stdlib/pull/10273) _(by Om-A-osc, Philipp Burckhardt, Sachin Pangal)_
 -   [`f04bd84`](https://github.com/stdlib-js/stdlib/commit/f04bd8446b04ed6a0e45822b20dbccf45bcb2ef7) - **feat:** add `stats/array/mskmaxabs` [(#10280)](https://github.com/stdlib-js/stdlib/pull/10280) _(by Sachin Pangal)_
@@ -51,8 +60,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Aniket Sonawane
+-   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
 -   Sachin Pangal
