@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-06)
+## Unreleased (2026-05-14)
 
 <section class="features">
 
@@ -30,6 +30,8 @@
 
 <details>
 
+-   [`fd45d7b`](https://github.com/stdlib-js/stdlib/commit/fd45d7bc9b9f269802566772fd992b24df0725e7) - **docs:** align JSDoc throws ordering across `stats/array` outliers [(#11838)](https://github.com/stdlib-js/stdlib/pull/11838) _(by Philipp Burckhardt)_
+-   [`db9343f`](https://github.com/stdlib-js/stdlib/commit/db9343fab98f282507251bac9547c713d5811cd7) - **bench:** refactor to use string interpolation in `stats/array` [(#11392)](https://github.com/stdlib-js/stdlib/pull/11392) _(by Karan Anand)_
 -   [`db2c323`](https://github.com/stdlib-js/stdlib/commit/db2c3239074dab803cc302baa478c033ef4a1e3b) - **bench:** refactor to use string interpolation in `stats/array/stdev` [(#10792)](https://github.com/stdlib-js/stdlib/pull/10792) _(by Aniket Sonawane, Athan Reines)_
 -   [`1ec3451`](https://github.com/stdlib-js/stdlib/commit/1ec34512653d2ce74a4b4fe9ad2a6392b56e4a93) - **bench:** refactor to use string interpolation in `stats/array/min` [(#10785)](https://github.com/stdlib-js/stdlib/pull/10785) _(by Aniket Sonawane)_
 -   [`dec8616`](https://github.com/stdlib-js/stdlib/commit/dec8616925247d81da1800ab71c3fa0e5946a6db) - **bench:** refactor to use string interpolation in `stats/array/min-by` [(#10786)](https://github.com/stdlib-js/stdlib/pull/10786) _(by Aniket Sonawane)_
@@ -60,10 +62,11 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
+-   Karan Anand
 -   Om-A-osc
 -   Philipp Burckhardt
 -   Sachin Pangal
