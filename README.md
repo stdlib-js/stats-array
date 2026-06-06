@@ -45,32 +45,20 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-array
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/stats-array' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { max, maxBy, maxabs, maxsorted, mean, meankbn, meankbn2, meanors, meanpn, meanpw, meanwd, mediansorted, min, minBy, minabs, minsorted, mskmax, mskmin, mskrange, nanmax, nanmaxBy, nanmaxabs, nanmean, nanmeanors, nanmeanpn, nanmeanwd, nanmin, nanminBy, nanminabs, nanmskmax, nanmskmin, nanmskrange, nanrange, nanrangeBy, nanstdev, nanstdevch, nanstdevpn, nanstdevtk, nanstdevwd, nanstdevyc, nanvariance, nanvariancech, nanvariancepn, nanvariancetk, nanvariancewd, nanvarianceyc, range, rangeBy, stdev, stdevch, stdevpn, stdevtk, stdevwd, stdevyc, variance, variancech, variancepn, variancetk, variancewd, varianceyc } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array@esm/index.mjs';
 ```
 
 #### ns
@@ -175,11 +163,20 @@ The namespace exports the following:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/stats-array' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -203,7 +200,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -268,125 +265,125 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/array/max-by]: https://github.com/stdlib-js/stats-array-max-by
+[@stdlib/stats/array/max-by]: https://github.com/stdlib-js/stats-array-max-by/tree/esm
 
-[@stdlib/stats/array/max]: https://github.com/stdlib-js/stats-array-max
+[@stdlib/stats/array/max]: https://github.com/stdlib-js/stats-array-max/tree/esm
 
-[@stdlib/stats/array/maxabs]: https://github.com/stdlib-js/stats-array-maxabs
+[@stdlib/stats/array/maxabs]: https://github.com/stdlib-js/stats-array-maxabs/tree/esm
 
-[@stdlib/stats/array/maxsorted]: https://github.com/stdlib-js/stats-array-maxsorted
+[@stdlib/stats/array/maxsorted]: https://github.com/stdlib-js/stats-array-maxsorted/tree/esm
 
-[@stdlib/stats/array/mean]: https://github.com/stdlib-js/stats-array-mean
+[@stdlib/stats/array/mean]: https://github.com/stdlib-js/stats-array-mean/tree/esm
 
-[@stdlib/stats/array/meankbn]: https://github.com/stdlib-js/stats-array-meankbn
+[@stdlib/stats/array/meankbn]: https://github.com/stdlib-js/stats-array-meankbn/tree/esm
 
-[@stdlib/stats/array/meankbn2]: https://github.com/stdlib-js/stats-array-meankbn2
+[@stdlib/stats/array/meankbn2]: https://github.com/stdlib-js/stats-array-meankbn2/tree/esm
 
-[@stdlib/stats/array/meanors]: https://github.com/stdlib-js/stats-array-meanors
+[@stdlib/stats/array/meanors]: https://github.com/stdlib-js/stats-array-meanors/tree/esm
 
-[@stdlib/stats/array/meanpn]: https://github.com/stdlib-js/stats-array-meanpn
+[@stdlib/stats/array/meanpn]: https://github.com/stdlib-js/stats-array-meanpn/tree/esm
 
-[@stdlib/stats/array/meanpw]: https://github.com/stdlib-js/stats-array-meanpw
+[@stdlib/stats/array/meanpw]: https://github.com/stdlib-js/stats-array-meanpw/tree/esm
 
-[@stdlib/stats/array/meanwd]: https://github.com/stdlib-js/stats-array-meanwd
+[@stdlib/stats/array/meanwd]: https://github.com/stdlib-js/stats-array-meanwd/tree/esm
 
-[@stdlib/stats/array/mediansorted]: https://github.com/stdlib-js/stats-array-mediansorted
+[@stdlib/stats/array/mediansorted]: https://github.com/stdlib-js/stats-array-mediansorted/tree/esm
 
-[@stdlib/stats/array/min-by]: https://github.com/stdlib-js/stats-array-min-by
+[@stdlib/stats/array/min-by]: https://github.com/stdlib-js/stats-array-min-by/tree/esm
 
-[@stdlib/stats/array/min]: https://github.com/stdlib-js/stats-array-min
+[@stdlib/stats/array/min]: https://github.com/stdlib-js/stats-array-min/tree/esm
 
-[@stdlib/stats/array/minabs]: https://github.com/stdlib-js/stats-array-minabs
+[@stdlib/stats/array/minabs]: https://github.com/stdlib-js/stats-array-minabs/tree/esm
 
-[@stdlib/stats/array/minsorted]: https://github.com/stdlib-js/stats-array-minsorted
+[@stdlib/stats/array/minsorted]: https://github.com/stdlib-js/stats-array-minsorted/tree/esm
 
-[@stdlib/stats/array/mskmax]: https://github.com/stdlib-js/stats-array-mskmax
+[@stdlib/stats/array/mskmax]: https://github.com/stdlib-js/stats-array-mskmax/tree/esm
 
-[@stdlib/stats/array/mskmin]: https://github.com/stdlib-js/stats-array-mskmin
+[@stdlib/stats/array/mskmin]: https://github.com/stdlib-js/stats-array-mskmin/tree/esm
 
-[@stdlib/stats/array/mskrange]: https://github.com/stdlib-js/stats-array-mskrange
+[@stdlib/stats/array/mskrange]: https://github.com/stdlib-js/stats-array-mskrange/tree/esm
 
-[@stdlib/stats/array/nanmax-by]: https://github.com/stdlib-js/stats-array-nanmax-by
+[@stdlib/stats/array/nanmax-by]: https://github.com/stdlib-js/stats-array-nanmax-by/tree/esm
 
-[@stdlib/stats/array/nanmax]: https://github.com/stdlib-js/stats-array-nanmax
+[@stdlib/stats/array/nanmax]: https://github.com/stdlib-js/stats-array-nanmax/tree/esm
 
-[@stdlib/stats/array/nanmaxabs]: https://github.com/stdlib-js/stats-array-nanmaxabs
+[@stdlib/stats/array/nanmaxabs]: https://github.com/stdlib-js/stats-array-nanmaxabs/tree/esm
 
-[@stdlib/stats/array/nanmean]: https://github.com/stdlib-js/stats-array-nanmean
+[@stdlib/stats/array/nanmean]: https://github.com/stdlib-js/stats-array-nanmean/tree/esm
 
-[@stdlib/stats/array/nanmeanors]: https://github.com/stdlib-js/stats-array-nanmeanors
+[@stdlib/stats/array/nanmeanors]: https://github.com/stdlib-js/stats-array-nanmeanors/tree/esm
 
-[@stdlib/stats/array/nanmeanpn]: https://github.com/stdlib-js/stats-array-nanmeanpn
+[@stdlib/stats/array/nanmeanpn]: https://github.com/stdlib-js/stats-array-nanmeanpn/tree/esm
 
-[@stdlib/stats/array/nanmeanwd]: https://github.com/stdlib-js/stats-array-nanmeanwd
+[@stdlib/stats/array/nanmeanwd]: https://github.com/stdlib-js/stats-array-nanmeanwd/tree/esm
 
-[@stdlib/stats/array/nanmin-by]: https://github.com/stdlib-js/stats-array-nanmin-by
+[@stdlib/stats/array/nanmin-by]: https://github.com/stdlib-js/stats-array-nanmin-by/tree/esm
 
-[@stdlib/stats/array/nanmin]: https://github.com/stdlib-js/stats-array-nanmin
+[@stdlib/stats/array/nanmin]: https://github.com/stdlib-js/stats-array-nanmin/tree/esm
 
-[@stdlib/stats/array/nanminabs]: https://github.com/stdlib-js/stats-array-nanminabs
+[@stdlib/stats/array/nanminabs]: https://github.com/stdlib-js/stats-array-nanminabs/tree/esm
 
-[@stdlib/stats/array/nanmskmax]: https://github.com/stdlib-js/stats-array-nanmskmax
+[@stdlib/stats/array/nanmskmax]: https://github.com/stdlib-js/stats-array-nanmskmax/tree/esm
 
-[@stdlib/stats/array/nanmskmin]: https://github.com/stdlib-js/stats-array-nanmskmin
+[@stdlib/stats/array/nanmskmin]: https://github.com/stdlib-js/stats-array-nanmskmin/tree/esm
 
-[@stdlib/stats/array/nanmskrange]: https://github.com/stdlib-js/stats-array-nanmskrange
+[@stdlib/stats/array/nanmskrange]: https://github.com/stdlib-js/stats-array-nanmskrange/tree/esm
 
-[@stdlib/stats/array/nanrange-by]: https://github.com/stdlib-js/stats-array-nanrange-by
+[@stdlib/stats/array/nanrange-by]: https://github.com/stdlib-js/stats-array-nanrange-by/tree/esm
 
-[@stdlib/stats/array/nanrange]: https://github.com/stdlib-js/stats-array-nanrange
+[@stdlib/stats/array/nanrange]: https://github.com/stdlib-js/stats-array-nanrange/tree/esm
 
-[@stdlib/stats/array/nanstdev]: https://github.com/stdlib-js/stats-array-nanstdev
+[@stdlib/stats/array/nanstdev]: https://github.com/stdlib-js/stats-array-nanstdev/tree/esm
 
-[@stdlib/stats/array/nanstdevch]: https://github.com/stdlib-js/stats-array-nanstdevch
+[@stdlib/stats/array/nanstdevch]: https://github.com/stdlib-js/stats-array-nanstdevch/tree/esm
 
-[@stdlib/stats/array/nanstdevpn]: https://github.com/stdlib-js/stats-array-nanstdevpn
+[@stdlib/stats/array/nanstdevpn]: https://github.com/stdlib-js/stats-array-nanstdevpn/tree/esm
 
-[@stdlib/stats/array/nanstdevtk]: https://github.com/stdlib-js/stats-array-nanstdevtk
+[@stdlib/stats/array/nanstdevtk]: https://github.com/stdlib-js/stats-array-nanstdevtk/tree/esm
 
-[@stdlib/stats/array/nanstdevwd]: https://github.com/stdlib-js/stats-array-nanstdevwd
+[@stdlib/stats/array/nanstdevwd]: https://github.com/stdlib-js/stats-array-nanstdevwd/tree/esm
 
-[@stdlib/stats/array/nanstdevyc]: https://github.com/stdlib-js/stats-array-nanstdevyc
+[@stdlib/stats/array/nanstdevyc]: https://github.com/stdlib-js/stats-array-nanstdevyc/tree/esm
 
-[@stdlib/stats/array/nanvariance]: https://github.com/stdlib-js/stats-array-nanvariance
+[@stdlib/stats/array/nanvariance]: https://github.com/stdlib-js/stats-array-nanvariance/tree/esm
 
-[@stdlib/stats/array/nanvariancech]: https://github.com/stdlib-js/stats-array-nanvariancech
+[@stdlib/stats/array/nanvariancech]: https://github.com/stdlib-js/stats-array-nanvariancech/tree/esm
 
-[@stdlib/stats/array/nanvariancepn]: https://github.com/stdlib-js/stats-array-nanvariancepn
+[@stdlib/stats/array/nanvariancepn]: https://github.com/stdlib-js/stats-array-nanvariancepn/tree/esm
 
-[@stdlib/stats/array/nanvariancetk]: https://github.com/stdlib-js/stats-array-nanvariancetk
+[@stdlib/stats/array/nanvariancetk]: https://github.com/stdlib-js/stats-array-nanvariancetk/tree/esm
 
-[@stdlib/stats/array/nanvariancewd]: https://github.com/stdlib-js/stats-array-nanvariancewd
+[@stdlib/stats/array/nanvariancewd]: https://github.com/stdlib-js/stats-array-nanvariancewd/tree/esm
 
-[@stdlib/stats/array/nanvarianceyc]: https://github.com/stdlib-js/stats-array-nanvarianceyc
+[@stdlib/stats/array/nanvarianceyc]: https://github.com/stdlib-js/stats-array-nanvarianceyc/tree/esm
 
-[@stdlib/stats/array/range-by]: https://github.com/stdlib-js/stats-array-range-by
+[@stdlib/stats/array/range-by]: https://github.com/stdlib-js/stats-array-range-by/tree/esm
 
-[@stdlib/stats/array/range]: https://github.com/stdlib-js/stats-array-range
+[@stdlib/stats/array/range]: https://github.com/stdlib-js/stats-array-range/tree/esm
 
-[@stdlib/stats/array/stdev]: https://github.com/stdlib-js/stats-array-stdev
+[@stdlib/stats/array/stdev]: https://github.com/stdlib-js/stats-array-stdev/tree/esm
 
-[@stdlib/stats/array/stdevch]: https://github.com/stdlib-js/stats-array-stdevch
+[@stdlib/stats/array/stdevch]: https://github.com/stdlib-js/stats-array-stdevch/tree/esm
 
-[@stdlib/stats/array/stdevpn]: https://github.com/stdlib-js/stats-array-stdevpn
+[@stdlib/stats/array/stdevpn]: https://github.com/stdlib-js/stats-array-stdevpn/tree/esm
 
-[@stdlib/stats/array/stdevtk]: https://github.com/stdlib-js/stats-array-stdevtk
+[@stdlib/stats/array/stdevtk]: https://github.com/stdlib-js/stats-array-stdevtk/tree/esm
 
-[@stdlib/stats/array/stdevwd]: https://github.com/stdlib-js/stats-array-stdevwd
+[@stdlib/stats/array/stdevwd]: https://github.com/stdlib-js/stats-array-stdevwd/tree/esm
 
-[@stdlib/stats/array/stdevyc]: https://github.com/stdlib-js/stats-array-stdevyc
+[@stdlib/stats/array/stdevyc]: https://github.com/stdlib-js/stats-array-stdevyc/tree/esm
 
-[@stdlib/stats/array/variance]: https://github.com/stdlib-js/stats-array-variance
+[@stdlib/stats/array/variance]: https://github.com/stdlib-js/stats-array-variance/tree/esm
 
-[@stdlib/stats/array/variancech]: https://github.com/stdlib-js/stats-array-variancech
+[@stdlib/stats/array/variancech]: https://github.com/stdlib-js/stats-array-variancech/tree/esm
 
-[@stdlib/stats/array/variancepn]: https://github.com/stdlib-js/stats-array-variancepn
+[@stdlib/stats/array/variancepn]: https://github.com/stdlib-js/stats-array-variancepn/tree/esm
 
-[@stdlib/stats/array/variancetk]: https://github.com/stdlib-js/stats-array-variancetk
+[@stdlib/stats/array/variancetk]: https://github.com/stdlib-js/stats-array-variancetk/tree/esm
 
-[@stdlib/stats/array/variancewd]: https://github.com/stdlib-js/stats-array-variancewd
+[@stdlib/stats/array/variancewd]: https://github.com/stdlib-js/stats-array-variancewd/tree/esm
 
-[@stdlib/stats/array/varianceyc]: https://github.com/stdlib-js/stats-array-varianceyc
+[@stdlib/stats/array/varianceyc]: https://github.com/stdlib-js/stats-array-varianceyc/tree/esm
 
 <!-- </toc-links> -->
 
